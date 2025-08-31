@@ -13,7 +13,8 @@ config_version=5
 config/name="Vampire Game"
 config/description="A vampire game."
 config/version="0.1.0"
-config/features=PackedStringArray("4.4", "GL Compatibility")
+run/main_scene="uid://bdwwgol1ioto3"
+config/features=PackedStringArray("4.4", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]

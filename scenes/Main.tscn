@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bdwwgol1ioto3"]
+
+[ext_resource type="Script" uid="uid://dk5sit6opne5d" path="res://scripts/Player.cs" id="1_elqb8"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Player" type="Node2D" parent="."]
+position = Vector2(450, 307)
+script = ExtResource("1_elqb8")
